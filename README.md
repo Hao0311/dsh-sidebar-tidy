@@ -69,3 +69,18 @@ cmd /c mklink /J "%USERPROFILE%\.dsh\profiles\web\node_modules\dsh-sidebar-tidy"
   `MenuItemButton`（props：children/shortcut/icon/current/disabled/danger/separatorBefore/onSelect），
   取不到时降级成裸 `<button>`，不至于整页崩。
 - `order: -1` 让它排在官方那两行前面；分隔线用内联样式画（菜单内部的 separator 类是私有哈希名）。
+
+
+---
+
+## English / 英文简介
+
+Tidy the DSH Web GUI sidebar: the global panel rows collapse into a single More menu, so only Plugins / Automations / More stay in the list; whitelisted rows stay put and new panels land in More automatically.
+
+Install:
+
+```sh
+dsh plugin --profile web add github:Hao0311/dsh-sidebar-tidy
+```
+
+Listed on the [awesome-dsh-plugin market](https://awesome-dsh-plugin.com/p/Hao0311/dsh-sidebar-tidy/).
