@@ -1,5 +1,7 @@
 # dsh-sidebar-tidy — 侧边栏精简
 
+![侧边栏只剩「插件 / 自动化任务 / 更多」](docs/screenshots/sidebar.png)
+
 把 DSH Web GUI 侧边栏的全局面板行收敛成 **插件 / 自动化任务 / 更多** 三行；其余面板
 （插件市场、QQ机器人、语音设置、演示文稿、工具箱 …）全部收进「更多」菜单里，点菜单行等价于点
 原来的侧栏行。白名单之外的新面板**自动**进「更多」，不用改代码。
@@ -84,3 +86,14 @@ dsh plugin --profile web add github:Hao0311/dsh-sidebar-tidy
 ```
 
 Listed on the [awesome-dsh-plugin market](https://awesome-dsh-plugin.com/p/Hao0311/dsh-sidebar-tidy/).
+
+
+---
+
+## 同作者的其它插件 / More from the same author
+
+- [dsh-deferred-approvals](https://github.com/Hao0311/dsh-deferred-approvals) — 非阻塞审批与定时提问
+- [dsh-mimo-tts](https://github.com/Hao0311/dsh-mimo-tts) — MiMo 语音合成 · 一键朗读回答
+- [dsh-toolbox](https://github.com/Hao0311/dsh-toolbox) — 连接状态 / 测速 / 体检工具箱
+- [dsh-price-badge](https://github.com/Hao0311/dsh-price-badge) — 输入框峰谷价徽标
+- [dsh-model-price](https://github.com/Hao0311/dsh-model-price) — 模型侧峰谷时间杆
