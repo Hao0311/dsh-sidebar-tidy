@@ -23,7 +23,7 @@ CSS 隐藏侧栏行（声明式、不碰 React 状态）+ 自注册一个 `sideb
 ## 装法
 
 ```sh
-dsh plugin --profile web add github:Hao0311/dsh-sidebar-tidy
+dsh plugin --profile web add @hao0311/dsh-sidebar-tidy
 ```
 
 装完重启一次 `dsh web`，再刷新页面。
@@ -82,7 +82,7 @@ Tidy the DSH Web GUI sidebar: the global panel rows collapse into a single More 
 Install:
 
 ```sh
-dsh plugin --profile web add github:Hao0311/dsh-sidebar-tidy
+dsh plugin --profile web add @hao0311/dsh-sidebar-tidy
 ```
 
 Listed on the [awesome-dsh-plugin market](https://awesome-dsh-plugin.com/p/Hao0311/dsh-sidebar-tidy/).
