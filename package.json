@@ -1,5 +1,5 @@
 {
-  "name": "dsh-sidebar-tidy",
+  "name": "@hao0311/dsh-sidebar-tidy",
   "version": "0.1.0",
   "type": "module",
   "main": "index.js",
@@ -13,15 +13,27 @@
     "cordis.patch.yml",
     "README.md"
   ],
-  "description": "DSH Web GUI 侧边栏精简：只留「插件」「自动化任务」两行，其余全局面板收进「更多」菜单。",
+  "description": "Tidy the DeepSeek Harness Web GUI sidebar: keep only Plugins and Automation, tuck every other global panel into a More menu. Panels added later move there automatically.",
   "keywords": [
     "dsh",
     "dsh-plugin",
     "deepseek-harness",
     "sidebar",
-    "ui"
+    "ui",
+    "customization"
   ],
   "license": "MIT",
+  "homepage": "https://awesome-dsh-plugin.com/p/Hao0311/dsh-sidebar-tidy/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hao0311/dsh-sidebar-tidy.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Hao0311/dsh-sidebar-tidy/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
   "dsh": {
     "bundle": {
       "patch": "./cordis.patch.yml"
